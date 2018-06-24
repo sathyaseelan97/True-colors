@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hp.colors">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="True Colors"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".First">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".blue" />
+        <activity android:name=".Yellow" />
+        <activity android:name=".Red" />
+        <activity android:name=".Green" />
+        <activity android:name=".Purple" />
+        <activity android:name=".Pink" />
+        <activity android:name=".Brown" />
+        <activity android:name=".Orange" />
+        <activity android:name=".White" />
+        <activity android:name=".Black" />
+        <activity android:name=".Grey" />
+        <activity android:name=".mystery" />
+        <activity android:name=".empathy" />
+        <activity android:name=".Trust" />
+        <activity android:name=".fear" />
+        <activity android:name=".indecisive" />
+        <activity android:name=".Frustrated" />
+        <activity android:name=".romantic" />
+        <activity android:name=".bore" />
+        <activity android:name=".Rage" />
+        <activity android:name=".Peace" />
+        <activity android:name=".fun" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Second" />
+        <activity android:name=".dmystery" />
+        <activity android:name=".dempathy" />
+        <activity android:name=".dtrust" />
+        <activity android:name=".dfear" />
+        <activity android:name=".ddecision" />
+        <activity android:name=".dfrust" />
+        <activity android:name=".dromantic" />
+        <activity android:name=".dbore" />
+        <activity android:name=".drage" />
+        <activity android:name=".dpeace" />
+        <activity android:name=".dfun" />
+        <activity android:name=".smystery" />
+        <activity android:name=".sempathy" />
+        <activity android:name=".strust" />
+        <activity android:name=".sfear" />
+        <activity android:name=".sdecision" />
+        <activity android:name=".sfrust" />
+        <activity android:name=".sromantic" />
+        <activity android:name=".sbore" />
+        <activity android:name=".srage" />
+        <activity android:name=".speace" />
+        <activity android:name=".sfun" />
+        <activity android:name=".color" />
+        <activity android:name=".Third" />
+        <activity android:name=".datrust"></activity>
+    </application>
+
+</manifest>

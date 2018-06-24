@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.colors.Second">
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgsecond"/>
+<Button
+    android:layout_width="190dp"
+    android:layout_height="70dp"
+    android:text="Living room"
+    android:layout_marginTop="50dp"
+    android:background="#0000"
+    android:layout_marginLeft="100dp"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:id="@+id/b1"
+    />
+    <Button
+        android:layout_width="190dp"
+        android:layout_height="70dp"
+        android:text="Dining room"
+        android:background="#0000"
+        android:layout_marginLeft="100dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/b2"
+        android:layout_below="@+id/b1"
+        />
+    <Button
+        android:layout_width="190dp"
+        android:background="#0000"
+        android:layout_height="70dp"
+        android:layout_marginLeft="100dp"
+        android:text="Kitchen"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/b3"
+        android:layout_below="@+id/b2"
+        />
+    <Button
+        android:layout_width="190dp"
+        android:layout_height="70dp"
+        android:text="Bed room"
+        android:background="#0000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="100dp"
+        android:layout_below="@+id/b3"
+        android:id="@+id/b4"
+        />
+    <Button
+        android:layout_width="190dp"
+        android:background="#0000"
+        android:layout_height="70dp"
+        android:text="Guest room"
+        android:layout_below="@+id/b4"
+        android:textSize="20sp"
+        android:layout_marginLeft="100dp"
+        android:textStyle="bold"
+        android:id="@+id/b5"
+        />
+</RelativeLayout>
